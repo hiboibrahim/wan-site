@@ -46,8 +46,7 @@ padding: 0 10px;
 }
 
 .brand-p {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 25px;
     color: #fafafa;
 }
 .bottom-img {
@@ -57,4 +56,19 @@ padding: 0 10px;
 .logo {
 height: 500px;
 width: 500px;
+
+}
+
+
+/* Values Section */
+
+#values {
+    padding: 80px 0;
+
+}
+
+.values i{
+    font-size: 30px;
+    margin-top: 20px;
+
 }
