@@ -64,11 +64,18 @@ width: 500px;
 
 #values {
     padding: 80px 0;
+    background-color: #fafafa;
 
 }
 
-.values i{
-    font-size: 30px;
+.values-img {
+    width: 100px;
+    height: 100px;
     margin-top: 20px;
+
+}
+
+.values {
+    padding: 20px;
 
 }
