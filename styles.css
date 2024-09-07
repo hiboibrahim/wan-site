@@ -149,8 +149,26 @@ width: 500px;
 }
 
 .img-fluid {
-    height: 450px;
-    width: 450px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
     
+}
+
+.services-p {
+    font-size: 15px;
+    font-family: 'Poppins', Courier, monospace;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Footer */
+
+#footer {
+    background-image: linear-gradient(to right, #ea48b1, #ad137a);
+
+}
+.footer-img {
+    width: 100%;
 }
 
