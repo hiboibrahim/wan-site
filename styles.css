@@ -149,9 +149,8 @@ width: 500px;
 }
 
 .img-fluid {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
+    height: 500px;
+    width: 500px;
     
 }
 
@@ -166,6 +165,7 @@ width: 500px;
 
 #footer {
     background-image: linear-gradient(to right, #ea48b1, #ad137a);
+    background-color: #ffffff;
 
 }
 .footer-img {
