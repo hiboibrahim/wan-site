@@ -15,7 +15,7 @@ body {
     z-index:10 ;
 }
 .navbar {
-    background-image: linear-gradient(to right, #ea48b1, #ad137a);
+    background-image: linear-gradient(to right, #ec89ca, #ad137a);
 
 }
 
@@ -36,9 +36,10 @@ padding: 0 10px;
 /* Banner styling */
 
 #banner {
-    background-image: linear-gradient(to right, #ea48b1, #ad137a);
+    background-image: linear-gradient(to right, #ec89ca, #ad137a);
     padding-top: 5%;
 }
+
 
 .brand-title {
     font-size: 40px;
@@ -56,10 +57,32 @@ padding: 0 10px;
 }
 
 .logo {
-height: 500px;
-width: 500px;
-
+    width: 100%;
+    height: auto;
 }
+
+
+/*
+
+#banner .logo {
+    height: 200px; 
+    width: 200px;
+    position: relative;
+    top: -20px; 
+    opacity: 0.8;
+    z-index: 1;
+    animation: floating 4s ease-in-out infinite;
+}
+
+
+
+@keyframes floating {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(-10px); }
+}
+*/
+
 
 
 /* About Intro */ 
@@ -110,17 +133,7 @@ width: 500px;
     transform: translateY(63px);
 }
 .title::after
-{
-    content: '';
-    background: #ad137a;
-    height: 10px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform: translateY(8px);
-}
+
 
 #values .btn-secondary {
     box-shadow: none;
@@ -155,7 +168,7 @@ width: 500px;
 }
 
 .services-p {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Poppins', Courier, monospace;
     font-weight: 300;
     font-style: normal;
@@ -163,12 +176,56 @@ width: 500px;
 
 /* Footer */
 
+
+/* Footer */
+
 #footer {
-    background-image: linear-gradient(to right, #ea48b1, #ad137a);
-    background-color: #ffffff;
+    background-image: linear-gradient(to right, #ec89ca, #ad137a);
+    
 
 }
+
+
 .footer-img {
     width: 100%;
+    height: auto;
+
 }
+footer p {
+  font-size: 13px;
+  line-height: 25px;
+}
+ a {
+  color: #ffffff;
+}
+.footer-manu {
+  padding-bottom: 25px;
+}
+#footer .footer-manu ul {
+  margin: 0px;
+  padding: 0px;
+}
+#footer .footer-manu ul li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+#footer .footer-manu ul li a {
+  display: inline-block;
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+.social-icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
 
