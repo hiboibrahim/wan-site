@@ -15,7 +15,7 @@ body {
     z-index:10 ;
 }
 .navbar {
-    background-image: linear-gradient(to right, #ec89ca, #ad137a);
+    background-image: linear-gradient(to right, #eab9d9, #ad137a);
 
 }
 
@@ -36,7 +36,7 @@ padding: 0 10px;
 /* Banner styling */
 
 #banner {
-    background-image: linear-gradient(to right, #ec89ca, #ad137a);
+    background-image: linear-gradient(to right, #eab9d9, #ad137a);
     padding-top: 5%;
 }
 
@@ -140,7 +140,7 @@ padding: 0 10px;
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #ea48b1, #ad137a);
+    background-image: linear-gradient(to right, #eab9d9, #ad137a);
 
 }
 
@@ -174,13 +174,13 @@ padding: 0 10px;
     font-style: normal;
 }
 
-/* Footer */
+/* About section */
 
 
 /* Footer */
 
 #footer {
-    background-image: linear-gradient(to right, #ec89ca, #ad137a);
+    background-image: linear-gradient(to right, #eab9d9, #ad137a);
     
 
 }
